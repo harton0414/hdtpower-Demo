@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        table{border-collapse:separate;border:2px solid black;}
+        th,td{border:0.5px solid black;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="container" id="list_productType">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a href="#table_one">一體成型電感</a>
+                            </h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#table_two">磁封膠條電感</a><a data-toggle="collapse" href="#collapse1"><span class="glyphicon glyphicon-plus" style="padding-left: 5px;"></span></a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse">
+                            <ul class="list-group">
+                            <li class="list-group-item"><a href="#table_two">標準型</a></li>
+                            <li class="list-group-item"><a href="#table_three">大電流型</a></li>
+                            <li class="list-group-item"><a href="#table_four">合金材</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a href="#table_five">共感模型</a>
+                            </h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#">組裝電感</a>
+                            </h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#">片式大電流電感</a>
+                            </h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                            <a data-toggle="collapse" href="#">插件式電感</a>
+                            </h4>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="panel-group">
+                        <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                晶片式元件<a data-toggle="collapse" href="#collapse2"><span class="glyphicon glyphicon-plus" style="padding-left: 5px;"></span></a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse">
+                            <ul class="list-group">
+                            <li class="list-group-item">晶片繞線電感</li>
+                            <li class="list-group-item">晶片疊層電感</li>
+                            <li class="list-group-item">晶片疊層磁珠</li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="table_one">
+        <H2 style="position: relative; text-align: center; line-height: 3em; color: #06247c;">一體成型電感<a href="#list_productType"><span class="glyphicon glyphicon-home" style="padding-left: 5px;"></span></a></H2>
+        <table>
+            <tbody align="center">
+                <tr>
+                    <td class="col-md-1"><span style="font-weight: bold;">料號</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">尺寸(Dimensions)(mm)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">感量(Inductance Rnage)(uH)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">DCR Range(mΩ)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Irms(溫升電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Isat(飽和電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">圖片</span></td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table>
+    </div><!-- table_one -->
+
+    <div class="container" id="table_two">
+        <H2 style="position: relative; text-align: center; line-height: 3em; color: #06247c;">磁封膠條電感標準型<a href="#list_productType"><span class="glyphicon glyphicon-home" style="padding-left: 5px;"></span></a></H2>
+        <table>
+            <tbody align="center">
+                <tr>
+                    <td class="col-md-1"><span style="font-weight: bold;">料號</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">尺寸(Dimensions)(mm)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">感量(Inductance Rnage)(uH)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">DCR Range(mΩ)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Irms(溫升電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Isat(飽和電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">圖片</span></td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table><!-- table_two -->
+    </div>
+
+    <div class="container" id="table_three">
+        <H2 style="position: relative; text-align: center; line-height: 3em; color: #06247c;">磁封膠條電感大電流型<a href="#list_productType"><span class="glyphicon glyphicon-home" style="padding-left: 5px;"></span></a></H2>
+        <table>
+            <tbody align="center">
+                <tr>
+                    <td class="col-md-1"><span style="font-weight: bold;">料號</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">尺寸(Dimensions)(mm)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">感量(Inductance Rnage)(uH)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">DCR Range(mΩ)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Irms(溫升電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Isat(飽和電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">圖片</span></td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table><!-- table_three -->
+    </div>
+
+    <div class="container" id="table_four">
+        <H2 style="position: relative; text-align: center; line-height: 3em; color: #06247c;">磁封膠條電感合金材<a href="#list_productType"><span class="glyphicon glyphicon-home" style="padding-left: 5px;"></span></a></H2>
+        <table>
+            <tbody align="center">
+                <tr>
+                    <td class="col-md-1"><span style="font-weight: bold;">料號</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">尺寸(Dimensions)(mm)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">感量(Inductance Rnage)(uH)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">DCR Range(mΩ)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Irms(溫升電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Isat(飽和電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">圖片</span></td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table><!-- table_four -->
+    </div>
+
+    <div class="container" id="table_five">
+        <H2 style="position: relative; text-align: center; line-height: 3em; color: #06247c;">共感模型<a href="#list_productType"><span class="glyphicon glyphicon-home" style="padding-left: 5px;"></span></a></H2>
+        <table>
+            <tbody align="center">
+                <tr>
+                    <td class="col-md-1"><span style="font-weight: bold;">料號</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">尺寸(Dimensions)(mm)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">感量(Inductance Rnage)(uH)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">DCR Range(mΩ)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Irms(溫升電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">Isat(飽和電流)(A)</span></td>
+                    <td class="col-md-1"><span style="font-weight: bold;">圖片</span></td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>Part No.</td>
+                    <td>LxWxH(Max)</td>
+                    <td>(μH)</td>
+                    <td>DCR (mΩ)</td>
+                    <td>Idc(A)</td>
+                    <td>Isat(A)</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MPC201610</td>
+                    <td>2.2x1.8x1.0</td>
+                    <td>0.24~2.2</td>
+                    <td>24~197</td>
+                    <td>1.6~4.0</td>
+                    <td>1.9~4.8</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>MPC252010</td>
+                    <td>2.7x1.8x1.0</td>
+                    <td>0.22~2.2</td>
+                    <td>18~121</td>
+                    <td>1.8~5.8</td>
+                    <td>2.4~6.6</td>
+                    <td>9</td>
+                </tr>
+            </tbody>
+        </table><!-- table_five -->
+    </div>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/photo3.js"></script>
+    <style>
+        .btn:focus, .btn:active, button:focus, button:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+#image-gallery .modal-footer{
+  display: block;
+}
+
+.thumb{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="img/emi/test4.PNG"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="img/emi/test4.PNG"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="img/emi/test5.PNG"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="img/emi/test5.PNG"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="img/emi/test3.PNG"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="img/emi/test3.PNG"
+                             alt="Another alt text">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="img/emi/test1.PNG"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="img/emi/test1.PNG"
+                             alt="Another alt text">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                    <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title=""
+                       data-image="img/emi/test2.PNG"
+                       data-target="#image-gallery">
+                        <img class="img-thumbnail"
+                             src="img/emi/test2.PNG"
+                             alt="Another alt text">
+                    </a>
+                </div>
+            </div>
+
+            <div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="image-gallery-title"></h4>
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <img id="image-gallery-image" class="img-responsive col-md-12" src="">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary float-left" id="show-previous-image"><i class="fa fa-arrow-left"></i>
+                            </button>
+    
+                            <button type="button" id="show-next-image" class="btn btn-secondary float-right"><i class="fa fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
